@@ -47,7 +47,10 @@ database.update(User(name="John", username="johndoe", email="johnemail@gmail.com
 user = database.find("johndoe")
 print(user)  # Output: User(name=John, username=johndoe, email=johnemail@gmail.com)
 
+
 # List all users
 print(
     database.list_all()
 )  # Output: [User(name=John, username=johndoe, email=johnemail@gmail.com)]
+
+
